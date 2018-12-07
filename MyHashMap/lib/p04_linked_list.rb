@@ -89,11 +89,11 @@ class LinkedList
     end
   end
 
-  def each(&prc) 
+  def each
     curr = @head.next
 
     until curr == @tail
-      prc.call(curr)
+      yield curr
       curr = curr.next 
     end
   end
