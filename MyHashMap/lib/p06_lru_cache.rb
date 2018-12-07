@@ -14,6 +14,10 @@ class LRUCache
   end
 
   def get(key)
+    if @map.include?(key)
+      @map.get(key)
+    elsif count <= @max
+      @map(key) = 
   end
 
   def to_s

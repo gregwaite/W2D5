@@ -12,11 +12,7 @@ class Node
   def to_s
     "#{@key}: #{@val}"
   end
-
-  def remove
-    # optional but useful, connects previous link to next link
-    # and removes self from list.
-  end
+  
 end
 
 class LinkedList
