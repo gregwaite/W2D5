@@ -1,0 +1,49 @@
+div {
+  width: 200px;
+  height: 200px; 
+  padding: 50px;
+  border: 5px solid black;
+}
+
+#first-div {
+  background-color: #39cccc;
+  display: inline-block;
+}
+
+#second-div {
+  display: inline-block;
+  background-color: #ff4136;
+  box-sizing: border-box; 
+}
+
+#grow_child {
+  background-color: #39cccc;
+  /* overflow: scroll; */
+  min-height: 10px;
+  padding: 5px;
+  
+}
+
+p {
+  background-color: #7fdbff;
+  /* width: 300px;
+  height: 300px; */
+}
+
+.img1-container {
+  width: 200px;
+  height: 600px;
+  background-color: limegreen;
+}
+
+.img2-container {
+  width: 200px;
+  min-height: 100px;
+  background-color: limegreen;
+}
+
+
+.img1-container img {
+  width: 100%;
+  /* height: 100%; */
+}
